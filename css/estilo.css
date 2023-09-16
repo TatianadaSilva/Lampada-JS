@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(rgb(238, 41, 235),white,rgb(134, 41, 184));
+    height: 100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.central{
+    width: 400px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+flex-direction: column;  
+align-items: center;  
+justify-content: center;
+gap: 10px;
+    
+}
+.central button{
+    background: rgba(18, 47, 76, 0.525);
+    color: white;
+    padding: 5px 10px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: arial;
+}
